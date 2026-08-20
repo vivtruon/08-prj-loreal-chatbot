@@ -63,9 +63,6 @@ chatForm.addEventListener("submit", async (e) => {
     addMessage(reply, "ai");
   } catch (error) {
     console.error("Error:", error);
-    addMessage(
-      "Sorry, something went wrong. Please try again.",
-      "ai",
-    );
+    addMessage("Sorry, something went wrong. Please try again.", "ai");
   }
 });
